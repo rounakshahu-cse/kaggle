@@ -13,41 +13,45 @@ Designed strictly within the curriculum syllabus constraints:
 ## Project Structure
 
 ```
-supermarket_insight/
-│
-├── config.py             # File paths, low-sales limit default, domain tuples
-├── store.py              # Load CSV, drop duplicates, clean text, flag missing values, exports
-├── analytics.py          # Revenue by dimension, rankings, payment share, NumPy bill stats
-├── alerts.py             # Low-sales alerts (threshold check), branch product gap (sets)
-├── search.py             # Keyword lookup with case- and space-tolerance
-├── report.py             # Aligned ASCII tables, text bar charts, export formatters
-├── main.py               # Interactive CLI numbered menu loop with dictionary dispatcher
-│
-├── data/
-│   ├── supermarket_sales.csv   # Main Kaggle Myanmar supermarket sales dataset (~1,000 rows)
-│   ├── fixtures/
-│   │   └── test_sales.csv      # Edge-case fixture (duplicates, missing values, irregular casing)
-│   └── output/
-│       ├── monthly_report.csv  # Exported aggregated monthly sales dataset
-│       └── report.txt          # Exported executive text summary report
-│
-├── tests/
-│   └── run_tests.py      # Test suite using plain asserts (and pytest compatible)
-│
-└── docs/
-    └── concepts.md       # Comprehensive topic-to-code mapping for syllabus evaluation
+.
+├── supermarket_insight_colab.ipynb  # Interactive Google Colab walkthrough notebook
+├── supermarket_insight/
+│   ├── config.py             # File paths, low-sales limit default, domain tuples
+│   ├── store.py              # Load CSV, drop duplicates, clean text, flag missing values, exports
+│   ├── analytics.py          # Revenue by dimension, rankings, payment share, NumPy bill stats
+│   ├── alerts.py             # Low-sales alerts (threshold check), branch product gap (sets)
+│   ├── search.py             # Keyword lookup with case- and space-tolerance
+│   ├── report.py             # Aligned ASCII tables, text bar charts, export formatters
+│   ├── main.py               # Interactive CLI numbered menu loop with dictionary dispatcher
+│   │
+│   ├── data/
+│   │   ├── supermarket_sales.csv   # Main Kaggle Myanmar supermarket sales dataset (~1,000 rows)
+│   │   ├── fixtures/
+│   │   │   └── test_sales.csv      # Edge-case fixture (duplicates, missing values, irregular casing)
+│   │   └── output/
+│   │       ├── monthly_report.csv  # Exported aggregated monthly sales dataset
+│   │       └── report.txt          # Exported executive text summary report
+│   │
+│   ├── tests/
+│   │   └── run_tests.py      # Test suite using plain asserts (and pytest compatible)
+│   │
+│   └── docs/
+│       └── concepts.md       # Comprehensive topic-to-code mapping for syllabus evaluation
 ```
 
 ---
 
 ## Quick Start
 
-### 1. Run the Interactive Console Application
+### 1. Run in Google Colab or Jupyter Notebook
+Upload or open [`supermarket_insight_colab.ipynb`](file:///d:/Project/SL%20mini%20project/supermarket_insight_colab.ipynb) in [Google Colab](https://colab.research.google.com/) or run locally via Jupyter. It provides an end-to-end interactive guided walkthrough of all 12 PRD features, test execution, and CSV/TXT file downloads.
+
+### 2. Run the Interactive Console Application
 ```bash
 python supermarket_insight/main.py
 ```
 
-### 2. Run the Automated Test Suite
+### 3. Run the Automated Test Suite
 With plain Python:
 ```bash
 python supermarket_insight/tests/run_tests.py
