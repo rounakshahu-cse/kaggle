@@ -143,12 +143,12 @@ supermarket_insight/
 
 ## 12. Acceptance Criteria
 
-- [ ] All 12 features work from the menu without errors
-- [ ] The low-sales alert changes when the limit is changed
-- [ ] Exports open correctly and match the on-screen numbers
-- [ ] A missing rating or a duplicate invoice is handled safely
-- [ ] All tests pass
-- [ ] `concepts.md` maps every syllabus topic to a function
+- [x] All 12 features work from the menu without errors
+- [x] The low-sales alert changes when the limit is changed
+- [x] Exports open correctly and match the on-screen numbers
+- [x] A missing rating or a duplicate invoice is handled safely
+- [x] All tests pass
+- [x] `concepts.md` maps every syllabus topic to a function
 
 ## 13. Test Plan (plain `assert`)
 
