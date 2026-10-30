@@ -1,0 +1,19 @@
+. Architecting Centralized Configuration (config.py)
+Your Coding Role: You established the global configuration layer. Instead of scattering hardcoded file paths, database strings, or magic numbers across different scripts, you centralized them into config.py using constants and clean path management.
+
+Why it matters: It ensures the project follows software engineering best practices, making the codebase modular, portable, and easy to maintain across different machines.
+
+2. Engineering Robust Data Ingestion & Storage (store.py)
+Your Coding Role: You wrote the data loading pipeline that ingests the raw supermarket_sales.csv dataset. You handled data structures (using Pandas DataFrames or structured classes) and implemented safety measures to ensure data integrity—such as handling missing values, cleaning corrupted rows, and standardizing data types upon import.
+
+Why it matters: You ensured that dirty, real-world data didn't crash the application before it even started processing.
+
+3. Implementing Efficient Retrieval & Querying (search.py)
+Your Coding Role: You developed the query engine that allows the system or users to filter and fetch specific transactions, date ranges, or product lines dynamically from the stored dataset.
+
+Why it matters: You turned a static CSV file into an interactive, queryable data store that feeds clean records directly into the analytics engine.
+
+Quick Pro-Tip for Your Presentation
+"What did you specifically code for Part 1?" you can answer confidently:
+
+"My core responsibility was building the foundation: I structured the centralized configuration (config.py), engineered the secure data ingestion and cleaning pipeline (store.py), and implemented the query mechanisms (search.py) to ensure our raw data was clean, structured, and ready for analytics."
