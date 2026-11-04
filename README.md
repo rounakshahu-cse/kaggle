@@ -82,6 +82,6 @@ python -m pytest supermarket_insight/tests/run_tests.py
 
 ---
 
-## Syllabus Topic-to-Code Mapping
+## Topic-to-Code Mapping
 
 For detailed academic mapping of each curriculum concept (Variables, Operators, Strings, Lists, Tuples, Sets, Dictionaries, Functions, Files, NumPy, Pandas), see [`docs/concepts.md`](file:///d:/Project/SL%20mini%20project/supermarket_insight/docs/concepts.md).
