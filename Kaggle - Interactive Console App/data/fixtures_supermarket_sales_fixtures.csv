@@ -1,6 +1,0 @@
-Invoice ID,Branch,City,Customer type,Gender,Product line,Unit price,Quantity,Tax 5%,Total,Date,Time,Payment,cogs,gross margin percentage,gross income,Rating
-525-28-8880,C,Naypyitaw,Normal,Female,Electronic accessories,29.79,9,13.41,281.52,02/07/2019,15:59,Ewallet,268.11,4.76190476,13.41,8.0
-383-93-8230,C,Naypyitaw,Normal,Male,Fashion accessories,50.04,6,15.01,315.25,01/28/2019,13:49,Credit card,300.24,4.76190476,15.01,9.3
-172-28-3990,C,Naypyitaw,Normal,Male,Health and beauty,90.95,4,18.19,381.99,02/12/2019,17:17,Credit card,363.8,4.76190476,18.19,5.5
-497-47-2460,A,Yangon,Member,Male,Electronic accessories,22.02,7,7.71,161.85,01/24/2019,17:42,Credit card,154.14,4.76190476,7.71,
-172-28-3990,B,Mandalay,Normal,Male,Food and beverages,44.8,5,11.2,235.2,01/26/2019,11:53,Ewallet,224.0,4.76190476,11.2,7.6
