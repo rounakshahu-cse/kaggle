@@ -1,0 +1,53 @@
+==================================================================
+          SUPERMARKET SALES & STOCK INSIGHT REPORT                
+==================================================================
+Transactions Analyzed          : 1,000
+Total Revenue Generated        : $322,966.75
+Total Units Sold               : 5,510
+Average Bill Amount            : $322.97
+------------------------------------------------------------------
+
+1. PERFORMANCE BY BRANCH
+------------------------
+  Branch C: $110,568.71 | 1,831 units | 328 txs | Avg Bill: $337.10
+  Branch A: $106,200.37 | 1,859 units | 340 txs | Avg Bill: $312.35
+  Branch B: $106,197.67 | 1,820 units | 332 txs | Avg Bill: $319.87
+
+2. PERFORMANCE BY PRODUCT LINE
+------------------------------
+  Food And Beverages       : $ 56,144.84 |   952 units | Avg Price: $56.01
+  Sports And Travel        : $ 55,122.83 |   920 units | Avg Price: $56.99
+  Electronic Accessories   : $ 54,337.53 |   971 units | Avg Price: $53.55
+  Fashion Accessories      : $ 54,305.89 |   902 units | Avg Price: $57.15
+  Home And Lifestyle       : $ 53,861.91 |   911 units | Avg Price: $55.32
+  Health And Beauty        : $ 49,193.74 |   854 units | Avg Price: $54.85
+
+3. BEST & SLOWEST PERFORMERS
+----------------------------
+  Best by Revenue    : Food And Beverages ($56,144.84)
+  Slowest by Revenue : Health And Beauty ($49,193.74)
+  Best by Units Sold : Electronic Accessories (971 units)
+  Fewest Units Sold  : Health And Beauty (854 units)
+
+4. PAYMENT METHOD DISTRIBUTION
+------------------------------
+  Cash              : 34.74% of Revenue
+  Ewallet           : 34.06% of Revenue
+  Credit Card       : 31.20% of Revenue
+
+5. NUMPY BILL STATISTICS
+------------------------
+  Mean Bill          : $322.97
+  Median Bill        : $253.85
+  Std Deviation      : $245.76
+  90th Percentile    : $718.91
+  Min Bill           : $10.68
+  Max Bill           : $1,042.65
+
+6. LOW-SALES VELOCITY ALERTS (Threshold: $5,000.00)
+----------------------------------------------------------
+  No products below the $5,000.00 threshold.
+
+==================================================================
+End of Report
+==================================================================
